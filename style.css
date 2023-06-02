@@ -27,7 +27,7 @@ body {
   margin: 15px 0;
 }
 
-.text {
+.text, .result {
   font-size: 15px;
   margin-bottom: 25px;
   line-height: 25px;
@@ -60,7 +60,6 @@ body {
   color: hsl(0, 0%, 100%);;
 }
 
-
 button {
   background-color: hsl(25, 97%, 53%);
   width: 300px;
@@ -81,4 +80,29 @@ button:hover {
 
 .thank-you-state {
   display: none;
+  margin: 5px auto;
+  text-align: center;
+}
+
+.illustration-thank-you {
+  margin-bottom: 18px;
+}
+
+.result {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(215, 19%, 23%);
+  width: 165px;
+  margin: 0 auto 30px;
+  border-radius: 18px;
+  padding: 5px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
