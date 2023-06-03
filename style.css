@@ -55,12 +55,18 @@ body {
   background-color: hsl(25, 97%, 53%);
 }
 
-.ratings > li:hover + li {
-  background-color: hsl(216, 12%, 54%);
-  color: hsl(0, 0%, 100%);;
+.btn {
+  border: 0;
+  background: 0%;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
 }
 
-button {
+.ratings > li:hover + li {
+  background-color: hsl(216, 12%, 54%);
+}
+
+#submit-button {
   background-color: hsl(25, 97%, 53%);
   width: 300px;
   padding: 18px;
@@ -72,7 +78,7 @@ button {
   letter-spacing: 3px;
 }
 
-button:hover {
+#submit-button:hover {
   background-color: hsl(0, 0%, 100%);
   color: hsl(25, 97%, 53%);
   cursor: pointer;
